@@ -45,6 +45,11 @@
       sum+=365;
     end;
   Print($'Дней в сумме: {sum}');
+  
+  Println();
+  var number := ReadInteger('Введите количество часов:');
+  Assert(number > 0);
+  Print($'Секунд: {number * 3600}');
 end.
 
 {
