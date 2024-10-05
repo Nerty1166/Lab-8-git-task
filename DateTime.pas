@@ -4,4 +4,5 @@
   if (year.Divs(4) and not year.Divs(100)) or (year.Divs(400)) then
     flag := True;
   Print($'Год високосный?: {flag}');
+  Print('В минуте 60 секунд')
 end.
